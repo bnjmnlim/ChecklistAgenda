@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete_entry"
+        android:title="@string/menu_delete" />
+
+    <item
+        android:id="@+id/moveup_entry"
+        android:title="@string/menu_moveup" />
+
+    <item
+        android:id="@+id/movedown_entry"
+        android:title="@string/menu_movedown" />
+
+    <item
+        android:id="@+id/change_time"
+        android:title="@string/menu_change_time"/>
+</menu>

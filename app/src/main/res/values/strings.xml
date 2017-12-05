@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Checklist Agenda</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_delete_all">"Delete today's entries"</string>
+    <string name="action_sort">"Sort by time"</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_bar_directory">"Directory"</string>
+    <string name="action_bar_calendar">"Calendar"</string>
+    <string name="text_empty">"Enter note here"</string>
+    <string name="title_empty">"Enter title here"</string>
+    <string name="title_rename">"Rename"</string>
+    <string name="rename_dialog_prompt">"Enter new title"</string>
+    <string name="delete_button_text">"Delete"</string>
+
+    <string name="dialog_save">"Save"</string>
+    <string name="dialog_cancel">"Cancel"</string>
+
+    <string name="menu_delete">"Delete"</string>
+    <string name="menu_movedown">"Move Down"</string>
+    <string name="menu_moveup">"Move Up"</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="menu_change_time">"Change Time"</string>
+
+    <string name="name_calendar">"Calendar"</string>
+    <string name="name_notebook">"Notebook"</string>
+
+    <string name="empty_preview">"Nothing scheduled"</string>
+    <string name="empty_time">"- - : - -"</string>
+</resources>

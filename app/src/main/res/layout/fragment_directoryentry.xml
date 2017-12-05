@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animateLayoutChanges="false"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/entry_background">
+
+    <LinearLayout
+        android:id="@+id/inner_directory_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/directory_title"
+            android:layout_width="150dp"
+            android:layout_height="32dp"
+            android:layout_gravity="bottom"
+            android:textSize="24dp"
+            android:text="Groceries"
+            android:gravity="bottom" />
+
+        <TextView
+            android:id="@+id/directory_progress"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="x of y completed"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/directory_preview"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_gravity="center_vertical"/>
+
+    <Button
+        android:id = "@+id/directory_delete"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:text="@string/delete_button_text"
+        android:background="@drawable/side_nav_bar_spring"
+        android:visibility="gone" />
+
+</LinearLayout>
